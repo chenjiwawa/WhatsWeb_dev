@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="green_prime">#FF25D366</color>
+    <color name="green_200">#FF03DAC5</color>
+    <color name="green_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue">#25D366</color>
+
+    <color name="tip_dialog_title_text">#0F1E24</color>
+    <color name="tip_dialog_message_text">#899AA8</color>
+    <color name="tip_dialog_button_text">#FFFFFF</color>
+
+    <color name="text_subtitle">@color/sub</color>
+
+    <color name="sub">#969696</color>
+
+    <color name="green_400">#FF26A69A</color>
+    <color name="green_400_a50">#7726A69A</color>
+    <color name="green_500">#FF009688</color>
+    <color name="gray_700">#FF616161</color>
+    <color name="gray_700_a25">#40616161</color>
+    <color name="gray_800">#FF424242</color>
+    <color name="gray_900">#FF212121</color>
+    <color name="black_a_50">#80000000</color>
+
+    <color name="item_text">#899AA8</color>
+    <color name="item_background">@android:color/white</color>
+
+    <color name="main">#F2F6F9</color>
+    <color name="transparent">#00000000</color>
+    <color name="tab_unselected">#C0CDD8</color>
+    <color name="tab_selected">@color/blue</color>
+    <color name="tab_strokes">#33C0CDD8</color>
+
+    <color name="textColorPrimary">@color/blue</color>
+
+</resources>

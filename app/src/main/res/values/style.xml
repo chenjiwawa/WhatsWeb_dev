@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/green_prime</item>
+        <item name="colorPrimaryVariant">@color/green_prime</item>
+        <item name="colorOnPrimary">@color/white</item>
+    </style>
+
+    <style name="AppLayoutTheme" parent="AppTheme">
+        //这里更改水波纹颜色
+        <item name="colorControlHighlight">@color/gray_700_a25</item>
+    </style>
+
+
+</resources>

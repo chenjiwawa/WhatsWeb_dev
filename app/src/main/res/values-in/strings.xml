@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE resources [<!ENTITY app_name "WhatsWeb">]>
+<resources>
+    <string name="app_name">&app_name;</string>
+
+    <string name="status_saver">Whats Saver</string>
+
+    <string name="menu_logout">Keluar</string>
+    <string name="menu_reload">Memuat Ulang</string>
+    <string name="menu_useragent">UserAgent</string>
+    <string name="menu_fullscreen">Layar Penuh</string>
+    <string name="menu_language">Bahasa</string>
+    <string name="menu_privacypolicy">Kebijakan pribadi</string>
+    <string name="menu_about">Tentang</string>
+    <string name="menu_toggle_keyboard">Toggle keyboard terkunci</string>
+
+    <string name="msg_keyboard_locked">Keyboard terkunci</string>
+    <string name="msg_keyboard_unlocked">Keyboard telah dibuka</string>
+
+    <string name="settings">Pengaturan</string>
+    <string name="currentversion">Versi Sekarang</string>
+
+    <string name="introduction">Terima kasih telah menginstal !\n\n Cukup pindai QR code ini dengan WhatsApp kamu agar kamu dapat masuk.</string>
+    <string name="about">&app_name;\n\n%1$s\n\nWhatsWeb adalah tool gratis. Tool membantu pengguna untuk login di dua akun WA pada satu perangkat pada saat yang bersamaan.\n\nAplikasi ini tidak berafiliasi dengan WhatsApp Inc. Hak untuk WhatsApp dan WhatsApp Web adalah milik WhatsApp Inc. Aplikasi ini adalah proyek untuk mengaktifkan penggunaan WhatsApp Web pada Perangkat Seluler.</string>
+    <string name="home_about">&app_name;\n\n%1$s\n\nWhatsWeb adalah tool gratis. Tool membantu pengguna untuk login di dua akun WA pada satu perangkat pada saat yang bersamaan.</string>
+
+    <string name="useragent_select">Pilih browser yang ingin kamu tampilkan di WA</string>
+    <string name="useragent_title">Pilih browser yang ditampilkan di WA</string>
+
+    <string name="language_en">Inggris</string>
+    <string name="language_es">Spanyol</string>
+    <string name="language_pt">Portugis</string>
+    <string name="language_id">Indonesia</string>
+
+    <string name="exit">Keluar</string>
+    <string name="exit_fullscreen">Keluar dari Layar Penuh</string>
+    <string name="cancel">Batal</string>
+    <string name="dialog_exit_app">Apakah kamu yakin ingin keluar dari &app_name; ?</string>
+
+    <string name="yes">Iya</string>
+    <string name="no">Tidak</string>
+    <string name="ok">Ok</string>
+
+    <string name="tips">Tips</string>
+    <string name="rewardad_unlock_info"> Tonton iklan untuk membuka fitur keren </string>
+    <string name="rewardad_unlock_app">Nonton iklan untuk membuka app</string>
+
+    <string name="wooops"> Ups!!</string>
+    <string name="network_reconnect_info"> Koneksi internet gagal, silahkan cek koneksi internet kamu dan coba lagi</string>
+    <string name="network_refresh_info"> Koneksi Internet gagal, silahkan tahan dan tarik layar kamu ke bawah untuk refresh!</string>
+
+    <string name="tab_status">STATUS</string>
+    <string name="tab_downloaded">Telah Terunduh</string>
+
+    <string name="dialog_delete_title">Yakin untuk menghapus message ini?</string>
+    <string name="delete_it">Hapus</string>
+    <string name="give_permission">Beri Izin</string>
+    <string name="need_permission_to_work">Kami membutuhkan Izin Penyimpanan agar &app_name; dapat berfungsi</string>
+
+    <string name="send">Kirim</string>
+    <string name="share">share</string>
+    <string name="download">Unduh</string>
+    <string name="delete">Hapus</string>
+
+    <string name="msg_download_success">Telah Terunduh</string>
+    <string name="msg_download_fail">Download Gagal</string>
+
+    <string name="message_hint_empty_1">Buka WA</string>
+    <string name="message_hint_empty_2">Lihat message teman kamu</string>
+    <string name="message_hint_empty_3">Buka aplikasi ini lagi</string>
+    <string name="message_hint_empty_4">Kamu akan menemukan statusnya DI SINI !!</string>
+    <string name="message_hint_empty_downloaded">File message akan muncul di sini setelah kamu mendownloadnya.</string>
+    <!-- Update -->
+    <string name="restart_to_update">Restart untuk update</string>
+    <string name="update_downloaded">Update terbaru baru saja diunduh</string>
+
+</resources>

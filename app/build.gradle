@@ -1,0 +1,155 @@
+import java.text.SimpleDateFormat
+
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'kotlin-android-extensions'
+    id 'kotlin-kapt'
+    id 'com.google.gms.google-services'
+    id 'com.google.firebase.crashlytics'
+    id 'androidx.navigation.safeargs.kotlin'
+}
+apply from: 'and_res_guard.gradle'
+
+//获取系统时间
+static def buildTime() {
+    def df = new SimpleDateFormat("MMddHHmm")
+    df.setTimeZone(TimeZone.getDefault())
+    return df.format(new Date())
+}
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "30.0.2"
+
+    defaultConfig {
+        applicationId "com.qltech.whatsweb"
+        minSdkVersion 21
+        targetSdkVersion 29
+        versionCode 10011
+        versionName "v1.0.11"
+        vectorDrawables.useSupportLibrary = true
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    android.applicationVariants.all { variant ->
+        variant.resValue "string", "versionName", variant.versionName
+        variant.outputs.all {
+            outputFileName = "whats_web_${versionName}_${buildTime()}_${variant.buildType.name}.apk"
+        }
+    }
+
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
+    buildFeatures {
+        dataBinding true
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+    signingConfigs {
+        release {
+            storeFile file("whatsweb.keystore")
+            keyAlias 'whatsweb'
+            storePassword 'zse4xdr5'
+            keyPassword 'zse4xdr5'
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            signingConfig signingConfigs.release
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar', '*.aar'], dir: 'libs')
+    implementation project(':library:base')
+    implementation project(':library:common')
+    implementation project(':library:http')
+    implementation project(':library:ui')
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    implementation 'androidx.core:core-ktx:1.3.2'
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.google.android.material:material:1.2.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.3.2'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.3.2'
+    implementation 'androidx.lifecycle:lifecycle-process:2.2.0'
+    testImplementation 'junit:junit:4.+'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    //androidx
+    implementation 'androidx.recyclerview:recyclerview:1.2.0-alpha06'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.viewpager:viewpager:1.0.0'
+    implementation 'androidx.palette:palette-ktx:1.0.0'
+    implementation 'androidx.annotation:annotation:1.1.0'
+    implementation 'com.google.android.exoplayer:exoplayer:2.12.1'
+
+    implementation 'com.flurry.android:analytics:12.9.0@aar'
+
+    // Ad
+    implementation 'com.google.android.gms:play-services-ads:19.8.0'
+    implementation 'com.google.ads.mediation:facebook:6.2.0.0'
+
+    // firebase
+    implementation platform('com.google.firebase:firebase-bom:27.0.0')
+    implementation 'com.google.firebase:firebase-config-ktx'
+    implementation 'com.google.firebase:firebase-analytics-ktx'
+    implementation 'com.google.firebase:firebase-core:18.0.0'
+    implementation 'com.google.firebase:firebase-crashlytics:17.2.2'
+    implementation 'com.google.firebase:firebase-perf:19.0.9'
+
+    implementation 'com.orhanobut:logger:2.2.0'
+    implementation 'org.greenrobot:eventbus:3.2.0'
+    implementation 'com.tencent:mmkv-static:1.2.7'
+
+    //权限获取框架
+    implementation 'com.hjq:xxpermissions:10.6'
+
+    //导航栏沉浸式
+    implementation 'com.githang:status-bar-compat:0.7'
+
+    implementation 'com.github.chrisbanes:PhotoView:2.1.4'
+
+    def lifecycle_version = "2.0.0"
+    implementation "androidx.lifecycle:lifecycle-extensions:$lifecycle_version"
+    implementation "androidx.lifecycle:lifecycle-runtime:$lifecycle_version"
+    annotationProcessor "androidx.lifecycle:lifecycle-compiler:$lifecycle_version"
+
+    // Loading
+    implementation 'com.mutlcolorloadingview:mutlcolorloadingview:1.0.0'
+
+    //Glide
+    def glide_version = '4.11.0'
+    implementation "com.github.bumptech.glide:glide:$glide_version"
+    kapt "com.github.bumptech.glide:compiler:4.11.0"
+    //glide配合的图片形变库
+    implementation 'jp.wasabeef:glide-transformations:4.1.0'
+
+    implementation 'com.github.Liberuman:ShadowDrawable:0.1'
+
+    //InApp Update
+    implementation 'com.google.android.play:core:1.10.0'
+}
+
+androidExtensions {
+    experimental = true
+}

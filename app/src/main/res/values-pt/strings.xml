@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE resources [<!ENTITY app_name "WhatsWeb">]>
+<resources>
+    <string name="app_name">&app_name;</string>
+
+    <string name="status_saver">Whats Saver</string>
+
+    <string name="menu_logout">Sair</string>
+    <string name="menu_reload">Recarregar</string>
+    <string name="menu_useragent">UserAgent</string>
+    <string name="menu_fullscreen">Tela cheia</string>
+    <string name="menu_language">Idioma</string>
+    <string name="menu_privacypolicy">Política de Privacidade</string>
+    <string name="menu_about">Sobre </string>
+    <string name="menu_toggle_keyboard">Alternar teclado</string>
+
+    <string name="msg_keyboard_locked">Teclado bloqueado</string>
+    <string name="msg_keyboard_unlocked">Teclado desbloqueado</string>
+
+    <string name="settings">Configurações</string>
+    <string name="currentversion">Versão Atual</string>
+
+    <string name="introduction">Obrigado por instalar! \ N \ n Basta escanear este código QR com o seu WhatsApp para fazer o seu login.</string>
+    <string name="about">&app_name; \n\n %1$s \n\nWhatsWeb é uma ferramenta gratuita. Ele ajuda os usuários a fazer login em duas contas de WA em um mesmo dispositivo simultaneamente.\n\nEste aplicativo não é afiliado ao WhatsApp Inc. Os direitos do WhatsApp e do WhatsApp Web pertencem ao WhatsApp Inc. Este aplicativo é um projeto para permitir o uso do WhatsApp Web em dispositivos móveis.</string>
+    <string name="home_about">&app_name; \n\n %1$s \n\nWhatsWeb é uma ferramenta gratuita. Ele ajuda os usuários a fazer login em duas contas de WA em um mesmo dispositivo simultaneamente.</string>
+
+    <string name="useragent_select">Selecione o browser que você gostaria de mostrar no WA</string>
+    <string name="useragent_title">Selecione o navegador mostrado no WA</string>
+
+    <string name="language_en">Inglês</string>
+    <string name="language_es">Espanhol</string>
+    <string name="language_pt">Português</string>
+    <string name="language_id">Indonesia</string>
+
+    <string name="exit">Sair</string>
+    <string name="exit_fullscreen">Sair da tela Cheia</string>
+    <string name="cancel">Cancelar</string>
+    <string name="dialog_exit_app">Você esta certo que deseja sair &app_name; ?</string>
+
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+    <string name="ok">Ok</string>
+
+    <string name="tips">Dicas</string>
+    <string name="rewardad_unlock_info"> Assista aos anúncios para desbloquear recursos avançados. </string>
+    <string name="rewardad_unlock_app">Veja a propaganda para desbloquear o app</string>
+
+    <string name="wooops"> Oooops !!</string>
+    <string name="network_reconnect_info"> Falha na conexão com a Internet, por favor reconecte e tente novamente !</string>
+    <string name="network_refresh_info"> Falha na conexão com a Internet, segure e puxe a tela para baixo para atualizar!</string>
+
+    <string name="tab_status">STATUS</string>
+    <string name="tab_downloaded">BAIXADO</string>
+
+    <string name="dialog_delete_title">Certo que deseja deletar esse message?</string>
+    <string name="delete_it">Deletar isso</string>
+    <string name="give_permission">Dar permissão</string>
+    <string name="need_permission_to_work">Precisamos de permissão de armazenamento para que o &app_name;
+        funcione</string>
+
+    <string name="send">Enviar</string>
+    <string name="share">Compartilhar</string>
+    <string name="download">Baixar</string>
+    <string name="delete">Deletar</string>
+
+    <string name="msg_download_success">Baixado</string>
+    <string name="msg_download_fail">Download Falhou</string>
+
+    <string name="message_hint_empty_1">Abrir WA</string>
+    <string name="message_hint_empty_2">Ver message dos seus amigos</string>
+    <string name="message_hint_empty_3">Abrir este aplicativo de novo</string>
+    <string name="message_hint_empty_4">Você irá encontrar message AQUI!!</string>
+    <string name="message_hint_empty_downloaded">Os arquivos de message aparecerão aqui após o download.</string>
+
+    <!-- Update -->
+    <string name="restart_to_update">Reinicie para atualizar</string>
+    <string name="update_downloaded">Uma atualização acaba de ser baixada</string>
+
+</resources>
+

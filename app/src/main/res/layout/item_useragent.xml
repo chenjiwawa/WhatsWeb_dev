@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/item_content"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:paddingLeft="18dp"
+        android:gravity="center_vertical"
+        android:text="MacOS"
+        android:textSize="16sp" />
+
+    <include layout="@layout/divider_gray" />
+
+    <FrameLayout
+        android:id="@+id/banner_ad_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipChildren="false"
+        android:fitsSystemWindows="true" />
+
+</LinearLayout>

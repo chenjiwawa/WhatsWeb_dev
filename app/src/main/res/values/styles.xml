@@ -1,0 +1,18 @@
+<resources>
+
+    <style name="toolbar_titletextappearance">
+        <item name="android:ellipsize">none</item>
+    </style>
+
+    <style name="TipDialogTheme" parent="Theme.AppCompat.DayNight.Dialog.Alert">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+
+    <style name="popup_window_anim" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/popup_window_enter_anim</item>
+        <item name="android:windowExitAnimation">@anim/popup_window_exit_anim</item>
+    </style>
+
+</resources>

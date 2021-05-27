@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- START xml_defaults -->
+<defaultsMap>
+    <entry>
+        <key>ad_master_switch</key>
+        <value>true</value>
+    </entry>
+    <entry>
+        <key>ad_home_reward</key>
+        <value>false</value>
+    </entry>
+    <entry>
+        <key>ad_useragent_reward</key>
+        <value>false</value>
+    </entry>
+    <entry>
+        <key>ad_home_app_open</key>
+        <value>true</value>
+    </entry>
+    <entry>
+        <key>ad_banner_home</key>
+        <value>true</value>
+    </entry>
+    <entry>
+        <key>ad_interstitial_refresh_page</key>
+        <value>true</value>
+    </entry>
+    <entry>
+        <key>ad_native_back_dialog</key>
+        <value>true</value>
+    </entry>
+    <entry>
+        <key>ad_banner_useragent_item</key>
+        <value>true</value>
+    </entry>
+</defaultsMap>
+    <!-- END xml_defaults -->

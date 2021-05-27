@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <include layout="@layout/topbar_sub" />
+
+    <TextView
+        android:id="@+id/language"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:paddingLeft="18dp"
+        android:gravity="center_vertical"
+        android:text="@string/menu_language"
+        android:textSize="16sp" />
+
+    <include layout="@layout/divider_gray" />
+
+    <TextView
+        android:id="@+id/privacypolicy"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:paddingLeft="18dp"
+        android:gravity="center_vertical"
+        android:text="@string/menu_privacypolicy"
+        android:textSize="16sp" />
+
+    <include layout="@layout/divider_gray" />
+
+    <RelativeLayout
+        android:id="@+id/currentversion"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/currentversion_key"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="18dp"
+            android:text="@string/currentversion"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/currentversion_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:paddingRight="18dp"
+            android:text="@string/versionName"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+    <include layout="@layout/divider_gray" />
+
+    <TextView
+        android:id="@+id/about"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:paddingLeft="18dp"
+        android:gravity="center_vertical"
+        android:text="@string/menu_about"
+        android:textSize="16sp" />
+
+    <include layout="@layout/divider_gray" />
+
+</LinearLayout>

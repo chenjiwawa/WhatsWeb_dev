@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.qltech.MainActivity">
+
+    <include layout="@layout/topbar_main" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/whatsweb"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginRight="18dp"
+            android:background="@drawable/bg_shape_card_main"
+            android:gravity="center"
+            android:paddingRight="4dp"
+            android:paddingBottom="4dp"
+            android:text="@string/app_name"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/statussaver"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="80dp"
+            android:layout_toRightOf="@+id/whatsweb"
+            android:background="@drawable/bg_shape_card_main"
+            android:gravity="center"
+            android:paddingRight="4dp"
+            android:paddingBottom="4dp"
+            android:text="@string/status_saver"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/about"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="18dp"
+        android:gravity="left|bottom"
+        android:paddingBottom="18dp"
+        android:text="@string/about"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="16sp" />
+
+</LinearLayout>

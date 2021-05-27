@@ -1,0 +1,68 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="margin_m1">4dp</dimen>
+    <dimen name="margin_m2">8dp</dimen>
+    <dimen name="margin_m3">12dp</dimen>
+    <dimen name="margin_m4">16dp</dimen>
+    <dimen name="margin_m5">20dp</dimen>
+    <dimen name="margin_m6">24dp</dimen>
+    <dimen name="margin_m7">28dp</dimen>
+    <dimen name="margin_m8">32dp</dimen>
+    <dimen name="margin_m9">36dp</dimen>
+    <dimen name="margin_m10">40dp</dimen>
+    <dimen name="margin_m11">44dp</dimen>
+    <dimen name="margin_m12">48dp</dimen>
+    <dimen name="margin_m13">52dp</dimen>
+    <dimen name="margin_m14">56dp</dimen>
+    <dimen name="margin_m15">60dp</dimen>
+    <dimen name="margin_m16">64dp</dimen>
+    <dimen name="margin_m17">68dp</dimen>
+    <dimen name="margin_m18">72dp</dimen>
+    <dimen name="margin_m19">76dp</dimen>
+    <dimen name="margin_m20">80dp</dimen>
+    <dimen name="margin_m21">84dp</dimen>
+    <dimen name="margin_m22">88dp</dimen>
+    <dimen name="margin_m23">92dp</dimen>
+    <dimen name="margin_m24">96dp</dimen>
+    <dimen name="margin_m25">100dp</dimen>
+    <dimen name="margin_m26">104dp</dimen>
+    <dimen name="margin_m27">108dp</dimen>
+    <dimen name="margin_m28">112dp</dimen>
+    <dimen name="margin_m29">116dp</dimen>
+    <dimen name="margin_m30">120dp</dimen>
+    <dimen name="margin_m31">124dp</dimen>
+    <dimen name="margin_m32">128dp</dimen>
+    <dimen name="margin_m33">132dp</dimen>
+    <dimen name="margin_m34">136dp</dimen>
+    <dimen name="margin_m35">140dp</dimen>
+    <dimen name="margin_m36">144dp</dimen>
+    <dimen name="margin_m37">148dp</dimen>
+    <dimen name="margin_m38">152dp</dimen>
+    <dimen name="margin_m39">156dp</dimen>
+    <dimen name="margin_m40">160dp</dimen>
+    <dimen name="margin_m41">164dp</dimen>
+    <dimen name="margin_m42">168dp</dimen>
+    <dimen name="margin_m43">172dp</dimen>
+    <dimen name="margin_m44">176dp</dimen>
+    <dimen name="margin_m45">180dp</dimen>
+    <dimen name="margin_m46">184dp</dimen>
+    <dimen name="margin_m47">188dp</dimen>
+    <dimen name="margin_m48">192dp</dimen>
+    <dimen name="margin_m49">196dp</dimen>
+    <dimen name="margin_m50">200dp</dimen>
+
+    <dimen name="margin_grid">6dp</dimen>
+
+    <!-- Size -->
+    <dimen name="line">1dp</dimen>
+
+    <!-- Elevation -->
+    <dimen name="elevation">12dp</dimen>
+    <dimen name="elevation_app_bar">4dp</dimen>
+
+    <!-- Radius -->
+    <dimen name="radius">4dp</dimen>
+    <dimen name="radius_circle">80dp</dimen>
+
+</resources>

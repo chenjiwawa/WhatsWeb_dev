@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- 共用 -->
+    <string name="intent_name_image_chooser">请选择照片</string>
+
+    <string name="time_sec">秒</string>
+    <string name="time_min">分</string>
+    <string name="time_hour">时</string>
+    <string name="time_day">天</string>
+
+    <string name="toast_activity_not_found">找不到能开启 %s 的应用程式</string>
+
+</resources>

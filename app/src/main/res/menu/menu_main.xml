@@ -1,0 +1,44 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.qltech.whatsweb.ui.WhatsWebActivity">
+
+    <item
+        android:id="@+id/menu_logout"
+        android:icon="@drawable/ic_menu_logout"
+        android:title="@string/menu_logout"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_reload"
+        android:icon="@drawable/ic_menu_reload"
+        android:title="@string/menu_reload"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_toggle_keyboard"
+        android:icon="@drawable/ic_menu_keyboard"
+        android:orderInCategory="100"
+        android:title="@string/menu_toggle_keyboard"
+        android:visible="false"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_useragent"
+        android:icon="@drawable/ic_menu_useragent"
+        android:title="@string/menu_useragent"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_fullscreen"
+        android:icon="@drawable/ic_menu_fullscreen"
+        android:title="@string/menu_fullscreen"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_about"
+        android:icon="@drawable/ic_menu_about"
+        android:title="@string/menu_about"
+        android:visible="false"
+        app:showAsAction="always" />
+</menu>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE resources [<!ENTITY app_name "WhatsWeb">]>
+<resources>
+    <string name="app_name">&app_name;</string>
+
+    <string name="status_saver">Whats Saver</string>
+
+    <string name="menu_logout">Cerrar sesión</string>
+    <string name="menu_reload">Recargar</string>
+    <string name="menu_useragent">UserAgent</string>
+    <string name="menu_fullscreen">Pantalla completa</string>
+    <string name="menu_language">Idioma</string>
+    <string name="menu_privacypolicy">Política de privacidad</string>
+    <string name="menu_about">Acerca</string>
+    <string name="menu_toggle_keyboard">Teclado toogle bloqueado</string>
+
+    <string name="msg_keyboard_locked">Teclado bloqueado</string>
+    <string name="msg_keyboard_unlocked">Teclado desbloqueado</string>
+
+    <string name="settings">Ajustes</string>
+    <string name="currentversion">Versión Actual</string>
+
+    <string name="introduction">¡Gracias por instalar! \n\n Simplemente escanee este código QR con su WhatsApp para iniciar sesión.</string>
+    <string name="about">&app_name;\n\n%1$s\n\nWhatsWeb es una herramienta gratuita. Ayuda a los usuarios a iniciar sesión en dos cuentas WA en un dispositivo al mismo tiempo.\n\nEsta aplicación no está afiliada a WhatsApp Inc. Los derechos de WhatsApp y WhatsApp Web pertenecen a WhatsApp Inc. Esta aplicación es un proyecto para permitir el uso de WhatsApp Web en dispositivos móviles.</string>
+    <string name="home_about">&app_name;\n\n%1$s\n\nWhatsWeb es una herramienta gratuita. Ayuda a los usuarios a iniciar sesión en dos cuentas WA en un dispositivo al mismo tiempo. </string>
+
+    <string name="useragent_select">Seleccione el navegador que le gustaría mostrar en WA</string>
+    <string name="useragent_title">Seleccione el navegador mostrado en WA</string>
+
+    <string name="language_en">Inglés</string>
+    <string name="language_es">Español</string>
+    <string name="language_pt">Portugués</string>
+    <string name="language_id">Indonesia</string>
+
+    <string name="exit">Salir</string>
+    <string name="exit_fullscreen">Salir de Pantalla Completa</string>
+    <string name="cancel">Cancelar</string>
+    <string name="dialog_exit_app">¿Está seguro de salir de &app_name; ?</string>
+
+    <string name="yes">SÍ</string>
+    <string name="no">No</string>
+    <string name="ok">Ok</string>
+
+    <string name="tips">Tips</string>
+    <string name="rewardad_unlock_info"> Mira anuncios para desbloquear funciones avanzadas. </string>
+    <string name="rewardad_unlock_app">Ver anuncios para desbloquear la aplicación</string>
+
+    <string name="wooops">Ups!!</string>
+    <string name="network_reconnect_info"> La conexión a Internet falló, por favor vuelva a conectarse e intente nuevamente. </string>
+    <string name="network_refresh_info"> La conexión a Internet falló, por favor vuelva a conectarse e intente nuevamente. </string>
+
+    <string name="tab_status">ESTADO</string>
+    <string name="tab_downloaded">DESCARGADO</string>
+
+    <string name="dialog_delete_title">&quot;¿Seguro que quieres eliminar este estado?&quot;</string>
+    <string name="delete_it">&quot;Bórralo&quot;</string>
+    <string name="give_permission">&quot;Dar permiso&quot;</string>
+    <string name="need_permission_to_work">&quot;Necesitamos permiso de almacenamiento para que funcione el &app_name;&quot;</string>
+
+    <string name="send">&quot;Enviar&quot;</string>
+    <string name="share">&quot;Compartir&quot;</string>
+    <string name="download">&quot;Descargar&quot;</string>
+    <string name="delete">&quot;Eliminar&quot;</string>
+
+    <string name="msg_download_success">Descargado</string>
+    <string name="msg_download_fail">Descarga Falló</string>
+
+    <string name="message_hint_empty_1">&quot;Abrir WA&quot;</string>
+    <string name="message_hint_empty_2">&quot;Ver el estado de tus amigos&quot;</string>
+    <string name="message_hint_empty_3">&quot;Abrir esta aplicación nuevamente&quot;</string>
+    <string name="message_hint_empty_4">&quot;Encontrarás estados AQUÍ!!&quot;</string>
+    <string name="message_hint_empty_downloaded">&quot;Los archivos de estado aparecerán aquí después de descargarlos&quot;.</string>
+
+    <!-- Update -->
+    <string name="restart_to_update">Reiniciar para actualizar</string>
+    <string name="update_downloaded">Se acaba de descargar una actualización</string>
+
+</resources>

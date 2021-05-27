@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/item"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                app:cardBackgroundColor="@color/main"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintDimensionRatio="43:55"
+                app:cardElevation="0dp"
+                app:cardCornerRadius="16dp">
+
+                <com.google.android.gms.ads.formats.MediaView
+                    android:id="@+id/media_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_card_ad_tag"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_ad_choice"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/icon"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="4dp"
+                android:scaleType="centerCrop"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/item" />
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginStart="6dp"
+                android:background="@color/main"
+                android:ellipsize="end"
+                android:fontFamily="sans-serif"
+                android:gravity="start|center_vertical"
+                android:singleLine="true"
+                android:textColor="@color/item_text"
+                android:textSize="13sp"
+                app:layout_constraintEnd_toStartOf="@+id/ad_image"
+                app:layout_constraintStart_toEndOf="@+id/icon"
+                app:layout_constraintTop_toTopOf="@+id/icon" />
+
+            <TextView
+                android:id="@+id/body"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="2dp"
+                android:background="@color/main"
+                android:ellipsize="end"
+                android:fontFamily="sans-serif"
+                android:gravity="start|center_vertical"
+                android:singleLine="true"
+                android:textColor="#FFB2C0CA"
+                android:textSize="10sp"
+                app:layout_constraintEnd_toStartOf="@+id/ad_image"
+                app:layout_constraintStart_toStartOf="@+id/title"
+                app:layout_constraintTop_toBottomOf="@+id/title" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/ad_image"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:padding="9dp"
+                android:src="@mipmap/ic_message_download"
+                app:layout_constraintEnd_toEndOf="@+id/item"
+                app:layout_constraintTop_toBottomOf="@+id/item" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

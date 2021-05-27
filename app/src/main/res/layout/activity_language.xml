@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <include layout="@layout/topbar_sub" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/bg_useragent_title"
+        android:clickable="false"
+        android:gravity="center"
+        android:padding="18dp"
+        android:text="@string/menu_language"
+        android:textColor="@color/white"
+        android:visibility="gone" />
+
+    <fragment
+        android:id="@+id/language_list_fragment"
+        android:name="com.qltech.whatsweb.ui.setting.language.LanguageListFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

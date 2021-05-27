@@ -1,0 +1,32 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    compileSdkVersion 29
+
+    defaultConfig {
+        minSdkVersion 19
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation project(':library:base')
+
+    //kotlin
+    api "org.jetbrains.kotlin:kotlin-reflect:$kotlin_version"
+
+    //Common
+    api 'com.google.code.gson:gson:2.8.6'
+
+    //Coroutine
+    api 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.8-1.4.0-rc'
+}

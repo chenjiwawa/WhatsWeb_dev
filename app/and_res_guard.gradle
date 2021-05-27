@@ -1,0 +1,133 @@
+apply plugin: 'AndResGuard'
+
+andResGuard {
+    mappingFile = null
+    use7zip = true
+    useSign = true
+    // 打开这个开关，会keep住所有资源的原始路径，只混淆资源的名字
+    keepRoot = false
+    // 设置这个值，会把arsc name列混淆成相同的名字，减少string常量池的大小
+    fixedResName = "arg"
+    // 打开这个开关会合并所有哈希值相同的资源，但请不要过度依赖这个功能去除去冗余资源
+    mergeDuplicatedRes = true
+    compressFilePattern = [
+            "*.png",
+            "*.jpg",
+            "*.jpeg",
+            // 处理权限弹窗gif显示不全 "*.gif",
+            //如果不是对APK size有极致的需求，请不要把resources.arsc添加进compressFilePattern
+            "resources.arsc"
+    ]
+    whiteList = [
+            // your icon
+            "R.mipmap.*",
+            // for fabric
+            "R.string.com.crashlytics.*",
+            // for fabric
+            "R.string.com.crashlytics.*",
+            // for google-services
+            "R.string.google_app_id",
+            "R.string.gcm_defaultSenderId",
+            "R.string.default_web_client_id",
+            "R.string.ga_trackingId",
+            "R.string.firebase_database_url",
+            "R.string.google_api_key",
+            "R.string.google_crash_reporting_api_key",
+            "R.string.project_id",
+            "R.string.ssdk*"
+
+//            // for umeng update
+//            "R.string.tb_*",
+//            "R.layout.tb_*",
+//            "R.drawable.tb_*",
+//            "R.drawable.u1*",
+//            "R.drawable.u2*",
+//            "R.color.tb_*",
+//            // umeng share for sina
+//            "R.drawable.sina*",
+
+//
+//            //友盟
+//            "R.string.umeng*",
+//            "R.string.UM*",
+//            "R.layout.umeng*",
+//            "R.drawable.umeng*",
+//            "R.id.umeng*",
+//            "R.anim.umeng*",
+//            "R.color.umeng*",
+//            "R.style.*UM*",
+//            "R.style.umeng*",
+//
+//            //mob
+//            "R.layout.mob_authorize_*",
+//            "R.drawable.mobcommon_authorize_*",
+//            "R.drawable.ssdk_*",
+//            "R.drawable.ssdk_oks_*",
+//            "R.string.ssdk_oks_*",
+//            "R.string.ssdk_*",
+//            "R.style.mobcommon_*",
+//            "R.ssdk_strings.*",
+//            "R.string.mobdemo_authorize_*",
+//
+//            //秒验-v2.0.9
+//            "R.anim.sec_verify*",
+//            "R.anim.umcsdk_*",
+//            "R.anim.ct_account_*",
+//            "R.attr.vcombtn*",
+//            "R.color.sec_verify*",
+//            "R.dimen.sec_verify*",
+//            "R.dimen.umcsdk_*",
+//            "R.drawable.sec_verify*",
+//            "R.drawable.customized_toggle_*",
+//            "R.drawable.dialog_loading",
+//            "R.drawable.customized_select_selector",
+//            "R.drawable.customized_toggle_button*",
+//            "R.drawable.umcsdk_*",
+//            "R.drawable.ct_account_*",
+//            "R.id.common_dialog_*",
+//            "R.id.ct_*",
+//            "R.id.progress_bar",
+//            "R.id.sec_verify*",
+//            "R.id.title_bar_layout",
+//            "R.layout.sec_verify*",
+//            "R.string.sec_verify*",
+//            "R.string.service_*",
+//            "R.string.umcsdk_*",
+//            "R.string.ct_account_*",
+//            "R.array.sec_verify*",
+//            "R.mipmap.sec_verify*",
+//            "R.raw.sec_verify*",
+//            "R.plurals.sec_verify*",
+//            "R.style.sec_verify*",
+//            "R.style.CtAuthDialog",
+//            "R.style.Dialog_Common"
+//
+//            //融云
+//            "R.drawable.u*",
+//            "R.drawable.rc_*",
+//            "R.string.rc_*",
+//            "R.layout.rc_*",
+//            "R.color.rc_*",
+//            "R.id.rc_*",
+//            "R.style.rc_*",
+//            "R.dimen.rc_*",
+//            "R.array.rc_*"
+
+    ]
+
+    sevenzip {
+        artifact = 'com.tencent.mm:SevenZip:1.2.21'
+//        path = "/usr/local/bin/7za"
+    }
+
+    /**
+     * 可选： 如果不设置则会默认覆盖assemble输出的apk
+     **/
+    // finalApkBackupPath = "${project.rootDir}/final.apk"
+
+    /**
+     * 可选: 指定v1签名时生成jar文件的摘要算法
+     * 默认值为“SHA-1”
+     **/
+    digestalg = "SHA-256"
+}

@@ -1,0 +1,6 @@
+include ':app'
+include ':library:base'
+include ':library:common'
+include ':library:http'
+include ':library:ui'
+rootProject.name = "WhatsWeb"

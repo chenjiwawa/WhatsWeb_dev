@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "411843535104",
+    "project_id": "rockey-whatsweb",
+    "storage_bucket": "rockey-whatsweb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:411843535104:android:7fe1a2aaeb4b15e96e53e5",
+        "android_client_info": {
+          "package_name": "com.qltech.whatsweb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "411843535104-9htlggc6tpq9ub12mecbjjs94ifa5q9l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.qltech.whatsweb",
+            "certificate_hash": "5b3e4552116bd5a19b2c85626de30e5b96b331c9"
+          }
+        },
+        {
+          "client_id": "411843535104-tiplkqq1gcpodngnd5tbcpf11junk7fs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtyBJ0Fu4j80dmZ1FrIOOwZeMqgb3rO4k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "411843535104-tiplkqq1gcpodngnd5tbcpf11junk7fs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
